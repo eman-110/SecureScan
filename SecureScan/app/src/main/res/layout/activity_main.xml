@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F6F9"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="105.3499984741211dp"
+        android:layout_height="105.3499984741211dp"
+        android:contentDescription="App Logo"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <!-- Secure Scan Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Secure Scan"
+        android:textColor="#1A3D5D"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Custom 3-dot Loader -->
+    <LinearLayout
+        android:id="@+id/dotContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot_background" />
+
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot_background" />
+
+        <View
+            android:id="@+id/dot3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot_background" />
+    </LinearLayout>
+</LinearLayout>
+

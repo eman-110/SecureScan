@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F6F9">
+
+    <TextView
+        android:id="@+id/skipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip     "
+        android:gravity="end"
+        android:textColor="#0A7D8C"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secure Scan"
+        android:textColor="#0A3755"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/textLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secure. Scan. Protect. Your safety,"
+        android:textColor="#0A3755"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="one QR code at a time"
+        android:textColor="#0A3755"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/buttonNavigate"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            />
+
+        <!-- Custom 3-dot Loader -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/dot1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/dot_background" />
+
+            <View
+                android:id="@+id/dot2"
+                android:layout_width="10dp"
+                android:layout_height="9dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/dot_background1" />
+
+            <View
+                android:id="@+id/dot3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/dot_background1" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
