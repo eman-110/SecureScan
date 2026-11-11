@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     android:background="#F2F6F9"
     android:gravity="center"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <!-- Logo -->
     <ImageView
@@ -56,4 +56,3 @@
             android:background="@drawable/dot_background" />
     </LinearLayout>
 </LinearLayout>
-
